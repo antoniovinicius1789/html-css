@@ -6,9 +6,15 @@
     font-size: 1em
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@font-face {
+    font-family: 'sriracha', cursive;
+    src: url(fontes/Sriracha-Regular.ttf);
+}
 
-
+@font-face {
+    font-family:'passi one' ;
+    src: url(fontes/PassionOne-Regular.ttf);
+}
 
 html, body {
     min-height: 100vh;
@@ -25,6 +31,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-size: 10vw;
+    font-family: 'passi one';
 }
 header > p {
     padding-bottom: 50px;
@@ -49,6 +56,11 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+    font-family: 'sriracha', cursive;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -63,6 +75,20 @@ section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.204);
+    text-shadow: 1px 1px 0px black;
+    border-radius: 15px;
+}
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
 footer {
