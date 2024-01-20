@@ -7,12 +7,12 @@
 }
 
 @font-face {
-    font-family: 'sriracha', cursive;
+    font-family: 'sriracha';
     src: url(fontes/Sriracha-Regular.ttf);
 }
 
 @font-face {
-    font-family:'passi one' ;
+    font-family:'passi one';
     src: url(fontes/PassionOne-Regular.ttf);
 }
 
@@ -58,7 +58,7 @@ section {
 
 section > p {
     padding-bottom: 2em;
-    font-family: 'sriracha', cursive;
+    font-family: 'sriracha';
 }
 
 section.normal {
@@ -69,6 +69,9 @@ section.normal {
 section.imagem {
     background-color: rgb(64, 63, 63);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473) ;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
@@ -76,7 +79,7 @@ section.imagem > p {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.204);
     text-shadow: 1px 1px 0px black;
-    border-radius: 15px;
+    border-radius: 13px;
 }
 
 section#img01 {
